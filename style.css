@@ -1,0 +1,27 @@
+body{
+	background-image: url("background.jpg");
+}
+img{
+	width: 300px;
+}
+p{
+	color: white;text-shadow: 1px 1px 0 #000,
+        -1px -1px 0 #000;
+}
+h1{
+	color: white;text-shadow: 1px 1px 0 #000,
+        -1px -1px 0 #000;
+}
+footer{
+	background-image: url("footer.jpg");padding-block-end: 50px;
+}
+p1{
+	color: white;text-shadow: 1px 1px 0 #000,
+        -1px -1px 0 #000;
+}
+div{
+	display: flex;
+}
+.playlist{
+	display: flex;background-color: forestgreen;
+}
