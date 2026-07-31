@@ -19,9 +19,59 @@ p1{
 	color: white;text-shadow: 1px 1px 0 #000,
         -1px -1px 0 #000;
 }
-div{
-	display: flex;
+.ligne2{
+        display: flex;
 }
 .playlist{
 	display: flex;background-color: forestgreen;
+}
+.ligne1{
+        display: flex;
+}
+.presentation{
+        display: flex;
+}
+.doc1{
+        display: flex;margin: 20px;
+}
+.doc2{
+        display: flex;margin: 20px;
+}
+.docsecret{
+        display: flex;margin: 20px;
+}
+.playlist-doc{
+        display: flex;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.droite {
+    width: 300px;
+}
+.gauche {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.heart {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.tout{
+        flex-direction: column;
+}
+.doc-text{
+        background-color: #ADD0B3;
+        border: 2px solid black;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 20px;
+        width: 516px;
+        height: 150px;
+        margin: 10px;
+        margin-top: 60px;
 }

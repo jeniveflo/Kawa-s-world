@@ -1,0 +1,90 @@
+body{
+	background-image: url("background.jpg");
+}
+img{
+	width: 300px;
+}
+p{
+	color: white;text-shadow: 1px 1px 0 #000,
+        -1px -1px 0 #000;
+}
+h1{
+	color: white;text-shadow: 1px 1px 0 #000,
+        -1px -1px 0 #000;
+}
+footer{
+	background-image: url("footer.jpg");padding-block-end: 50px;
+}
+.cinema-container {
+	max-width: 800px;
+}
+.intro-cinema {
+	font-size: 18px;
+	margin-bottom: 30px;
+	text-align: center;
+	line-height: 1.6;
+}
+.film-box {
+	background-color: #ADD0B3;
+	border: 2px solid black;
+	border-radius: 10px;
+	margin-bottom: 15px;
+	padding: 10px;
+	transition: all 0.3s ease;
+}
+.film-titre {
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	cursor: pointer;
+	padding: 5px;
+	list-style: none;
+}
+.film-titre:hover {
+	color: forestgreen;
+}
+.film-contenu {
+	margin-top: 15px;
+	padding: 10px;
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 8px;
+	border-left: 4px solid forestgreen;
+}
+.film-contenu p {
+	color: black !important;
+	text-shadow: none !important; 
+	margin: 8px 0;
+	font-size: 16px;
+}
+.retour-box {
+	text-align: center;
+	margin-top: 40px;
+}
+.btn-retour {
+	display: inline-block;
+	background-color: forestgreen;
+	color: white;
+	padding: 12px 25px;
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 20px;
+	border: 2px solid black;
+	transition: background-color 0.2s;
+}
+.btn-retour:hover {
+	background-color: darkgreen;
+}
+.playlist{
+	display: flex;background-color: forestgreen;margin-right: 50px;margin-top: 1px;margin-bottom: 10px;
+}
+.playlist-doc{
+        display: flex
+}
+.droite {
+    width: 400px;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
